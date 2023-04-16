@@ -1,0 +1,73 @@
+body
+{
+	background-color: aqua;
+}
+.titre 
+{
+  text-transform: uppercase;
+  display: inline-block;
+  color: black;
+  margin-left: 30%;
+}
+.corp {
+  
+  width: 100%;
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header {
+  height: 200px;
+  background-image: url("../images/FST.jpg");
+  background-size: cover;
+}
+header img {
+  width: 150px;
+}
+header h1 {
+  float: right;
+}
+span {
+  color: red;
+}
+.titre {
+  text-transform: uppercase;
+  display: inline-block;
+  color: black;
+  margin-left: 30%;
+}
+nav {
+  justify-content: space-between;
+  padding-top: 40px;
+  float: left;
+  width: 100%;
+  box-shadow: 10px 10px 10px black;
+  position: sticky;
+  top: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav ul {
+  border-radius: 20px;
+  background-color: rgb(135, 132, 132);
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10%;
+}
+
+nav ul li a:hover {
+  background-color: red;
+  font-size: 25px;
+  transition: 1s;
+  border-radius: 15px;
+  box-shadow: 10px 0px 5px rgb(192, 192, 192);
+}
